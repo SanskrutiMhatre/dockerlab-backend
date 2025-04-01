@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "labs",
+  "info": {
+    "singularName": "lab",
+    "pluralName": "labs",
+    "displayName": "lab"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Subject_Name": {
+      "type": "string"
+    },
+    "Semester": {
+      "type": "enumeration",
+      "enum": [
+        "sem1",
+        "sem2",
+        "sem3",
+        "sem4",
+        "sem5",
+        "sem6",
+        "sem7",
+        "sem8"
+      ]
+    },
+    "Ubuntu_Pull_command": {
+      "type": "string"
+    },
+    "Ubuntu_Run_command": {
+      "type": "string"
+    },
+    "Ubuntu_Instructions": {
+      "type": "blocks"
+    },
+    "Window_Pull_command": {
+      "type": "string"
+    },
+    "Window_Run_command": {
+      "type": "string"
+    },
+    "Window_Instructions": {
+      "type": "blocks"
+    },
+    "Note": {
+      "type": "string"
+    }
+  }
+}

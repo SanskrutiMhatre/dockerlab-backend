@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "docs",
+  "info": {
+    "singularName": "doc",
+    "pluralName": "docs",
+    "displayName": "Doc"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "Instructions": {
+      "type": "blocks"
+    }
+  }
+}
